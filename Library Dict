@@ -1,0 +1,110 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMzEGcoKDjhaR7MMo292blX",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/KreatifKris/ASCE.Database.XI/blob/main/Library%20Dict\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iSSsNPGeE4Qt",
+        "outputId": "768b868b-63bc-49bf-f917-d64ecb91ed51"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'dict'>\n"
+          ]
+        }
+      ],
+      "source": [
+        "dict = {'Sekolah' : 'Petra 4', 'prodi' : 'TIK-A', 'Tahun':2025, 'NIS' : 238409280493}\n",
+        "print(type(dict))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Print direktori"
+      ],
+      "metadata": {
+        "id": "xBqpapWZGWT3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "dict = {'Sekolah' : 'Petra 4', 'prodi' : 'TIK-A', 'Tahun':2025, 'NIS' : 238409280493}\n",
+        "print(type(dict))\n",
+        "print(\"dict['Sekolah'] =\", dict['Sekolah'])\n",
+        "print(\"dict['prodi'] =\", dict['prodi'])\n",
+        "print(\"dict['Tahun'] =\", dict['Tahun'])\n",
+        "print(\"dict['NIS'] =\", dict['NIS'])\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jHZLxqOlFlCd",
+        "outputId": "81df21d4-65cd-4120-ae8e-9033cf64e48d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'dict'>\n",
+            "dict['Sekolah'] = Petra 4\n",
+            "dict['prodi'] = TIK-A\n",
+            "dict['Tahun'] = 2025\n",
+            "dict['NIS'] = 238409280493\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "dict = {'Sekolah' : 'Petra 4', 'prodi' : 'TIK-A', 'Tahun':2025, 'NIS' : 238409280493}\n",
+        "print(type(dict))\n",
+        "dict[238409280493] = 'Bukan NIM'\n",
+        "dict['Universitas'] = 'UGM'"
+      ],
+      "metadata": {
+        "id": "bXqpH1UuGZM8"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
